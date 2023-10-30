@@ -1,0 +1,26 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+Intro:
+
+*HTTP stands for HyperText Transfer Protocol
+*It is a method that the computers and servers use to request and send information
+
+(Eg: when we search cricbuzz.com on a browser,
+*the browser sends an HTTP request to the respective server
+*then the server sends HTTP response 
+*finally the browser changes the response to a understandable format for the users
+*This is process is done by DNS)
+*HTTP was created in 1997 and developed 
+*It is called as HTTP 1.1
+*A new version of HTTP was called HTTP 2 in 2015.
+
+Difference:
+
+*HTTP 2 is much faster and more efficient than the HTTP 1.1.
+*It is because of how it prioritizes content during the loading process
+*HTTP 1.1 uses more tcp connections than the HTTP 2 .
+
+For example,
+(*HTTP 1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+*HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource)
+*Thus, HTTP 2 is more faster and efficient than the older version HTTP 1.1
